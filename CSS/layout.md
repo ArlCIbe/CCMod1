@@ -1,33 +1,34 @@
-#### every HTML element has a default **display** value,, which controls how it shows up on a WP. the default display is usually **block** or **inline** and is dependent on the browser.
+### LAYOUT
 
-### Block-level - starts on a new line and takes up the full width available (stretches out to the left and right as far as possible).
+##### Every HTML element has a default **display** value, which controls how it shows up on a WP. The default display is usually **block** or **inline** and is depenedent on the browser.
 
-### Inline - doesn't start on a new line and only takes up as much width as necessary.
+#### Block-level - starts on a new line and takes up the full width available (stretches out to the left and right as far as possible).
 
-## display property values
+- flex - creates a block-level flex container
+- grid - creates a block-level grid container
 
-| Value | Description |
-|--------------------|
-| inline             | Displays an element as an inline element           |
-| block              | Displays an element as a block element                                                     |
-| contents           | Makes the container disappear, making the child elements children of the element the next level up in the DOM              |
-| flex               | Displays an element as a block-level flex container                                                                                                     |
-| grid               | Displays an element as a block-level grid container                                                                                                     |
-| inline-block       | Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values |
-| inline-flex        | Displays an element as an inline-level flex container                                                                                                   |
-| inline-grid        | Displays an element as an inline-level grid container                                                                                                   |
-| inline-table       | The element is displayed as an inline-level table                                                                                                       |
-| list-item          | Let the element behave like a list element                                                                                                              |
-| run-in             | Displays an element as either block or inline, depending on context                                                                                     |
-| table              | Let the element behave like a table element                                                                                                             |
-| table-caption      | Let the element behave like a table-caption element                                                                                                     |
-| table-column-group | Let the element behave like a table-column-group element                                                                                                |
-| table-header-group | Let the element behave like a table-header-group element                                                                                                |
-| table-footer-group | Let the element behave like a table-footer-group element                                                                                                |
-| table-row-group    | Let the element behave like a table-row-group element                                                                                                   |
-| table-cell         | Let the element behave like a table-cell element                                                                                                        |
-| table-column       | Let the element behave like a table-column element                                                                                                      |
-| table-row          | Let the element behave like a table-row element                                                                                                         |
-| none               | The element is completely removed                                                                                                                       |
-| initial            | Sets this property to its default value                                                                                                                 |
-| inherit            | Inherits this property from its parent element                                                                                                          |        |
+#### Inline - doesn't start on a new line and only takes up as much width as necessary.
+
+- inline-flex - creates an inline-level flex container
+- inline-grid - creates an inline-level grid container
+- inline-table - creates an inline-level table
+
+##### inline-block - creates an inline-level block container; the element itself is formatted as an inline element, but you can apply height and width values.
+
+#### other display property values
+
+- contents - makes the container disappear, making the child elements children of the element the next level up in the DOM
+- list-item - lets the element behave like a <li> element
+- run-in - displays an element as either block or inline, depending on contex
+- table - lets the element behave like a <table> element
+- table-caption - lets the element behave like a <caption> element
+- table-column-group - lets the element behave like a <colgroup> element
+- table-header-group - lets the element behave like a <thead> element
+- table-footer-group - lets the element behave like a <tfoot> element
+- table-row-group - lets the element behave like a <tbody> element
+- table-cell - lets the element behave like a <td> element
+- table-column - lets the element behave like a <col> element
+- table-row - lets the element behave like a <tr> element
+- none - the element is completely removed
+- initial - sets this property to its default value
+- inherit - inherits this property from its parent element
