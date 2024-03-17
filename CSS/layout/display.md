@@ -49,11 +49,11 @@ G2K: <script> defaults to display: none.
 
 - applying **display: flex** to an element causes all of that element's **DIRECT** children to become flex items.
 
-`<div class="wrapper">
+<div class="wrapper">
   <div class="box1">One</div>
   <div class="box2">Two</div>
   <div class="box3">Three</div>
-</div>`
+</div>
 
 
 
