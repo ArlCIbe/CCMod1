@@ -1,0 +1,1 @@
+Floats — Applying a float value such as left can cause block-level elements to wrap along one side of an element, like the way images sometimes have text floating around them in magazine layouts.

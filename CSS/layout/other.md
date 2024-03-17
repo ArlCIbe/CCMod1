@@ -1,0 +1,2 @@
+Table layout — Features designed for styling parts of an HTML table can be used on non-table elements using display: table and associated properties.
+Multi-column layout — The Multi-column layout properties can cause the content of a block to lay out in columns, as you might see in a newspaper.

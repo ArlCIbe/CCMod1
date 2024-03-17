@@ -1,4 +1,4 @@
-##### Every HTML element has a default **display** value, which controls how it shows up on a WP. The default display is usually **block** or **inline** and is depenedent on the browser.
+##### Every HTML element has a default **display** value, which controls how it shows up on a WP. The default display is usually **block** or **inline**, which is dependent on the browser's **normal flow** (how it lays out HTML pages by default). The methods that can change how elements are laid out in CSS are:
 
 #### Block-level - starts on a new line and takes up the full width available (stretches out to the left and right as far as possible).
 
@@ -33,15 +33,28 @@
 
 ___
 
-### DISPLAY: NONE
+### NONE
 
 - commonly used with JavaScript to hide and show elements without deleting and recreating them
 G2K: <script> defaults to display: none.
 
-Note: Setting the display property of an element only changes **how the element is displayed**, *NOT* what kind of element it is (e.g. an inline element with display: block; is not allowed to have other block elements inside it).
+**Note**: Setting the display property of an element only changes *how* the element is displayed, not what *kind* of element it is (e.g. an inline element with display: block; is not allowed to have other block elements inside it).
 
 #### Hiding an Element
 
 **display: none** - the page will be display as if the element is simply not there. 
 **visibility:hidden** - b/c it's still taking up the same space as before, the element will affect the page layout.
+
+### FLEX
+
+- applying **display: flex** to an element causes all of that element's **DIRECT** children to become flex items.
+
+`<div class="wrapper">
+  <div class="box1">One</div>
+  <div class="box2">Two</div>
+  <div class="box3">Three</div>
+</div>`
+
+
+
 
