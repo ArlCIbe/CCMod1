@@ -2,14 +2,14 @@
 
 #### Block-level - starts on a new line and takes up the full width available (stretches out to the left and right as far as possible).
 
-- flex - creates a block-level flex container
-- grid - creates a block-level grid container
+- ###### flex - creates a block-level flex container
+- ###### grid - creates a block-level grid container
 
 #### Inline - doesn't start on a new line and only takes up as much width as necessary.
 
-- inline-flex - creates an inline-level flex container
-- inline-grid - creates an inline-level grid container
-- inline-table - creates an inline-level table
+- ###### inline-flex - creates an inline-level flex container
+- ###### inline-grid - creates an inline-level grid container
+- ###### inline-table - creates an inline-level table
 
 ##### inline-block - creates an inline-level block container; the element itself is formatted as an inline element, but you can apply height and width values.
 
@@ -36,7 +36,7 @@ ___
 ### NONE
 
 - commonly used with JavaScript to hide and show elements without deleting and recreating them
-G2K: <script> defaults to display: none.
+G2K: `script` defaults to display: none.
 
 **Note**: Setting the display property of an element only changes *how* the element is displayed, not what *kind* of element it is (e.g. an inline element with display: block; is not allowed to have other block elements inside it).
 
@@ -47,13 +47,15 @@ G2K: <script> defaults to display: none.
 
 ### FLEX
 
-- applying **display: flex** to an element causes all of that element's **DIRECT** children to become flex items.
+- applying **display: flex** to an element causes all of that element's *DIRECT* children to become flex items, meaning they'll be affected by some of the **initial** values that flexbox sets on the flex container
 
-<div class="wrapper">
-  <div class="box1">One</div>
-  <div class="box2">Two</div>
-  <div class="box3">Three</div>
-</div>
+- In addition to properties that can be applied to a flex *container*, there are also properties that can be applied to flex *items*, enabling them to expand or contract according to available space.
+    - **flex: 1** will cause all of these flex *items* to fill the container insead of leaving space at the end
+
+### GRID
+
+- ##### grid-template-rows
+- ##### grid-template-columns
 
 
 
