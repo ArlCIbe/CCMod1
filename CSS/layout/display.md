@@ -36,7 +36,7 @@ ___
 ### NONE
 
 - commonly used with JavaScript to hide and show elements without deleting and recreating them
-G2K: `script` defaults to display: none.
+G2K: `<script>` defaults to display: none.
 
 **Note**: Setting the display property of an element only changes *how* the element is displayed, not what *kind* of element it is (e.g. an inline element with display: block; is not allowed to have other block elements inside it).
 
