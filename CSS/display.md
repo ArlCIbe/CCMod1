@@ -1,5 +1,3 @@
-### LAYOUT
-
 ##### Every HTML element has a default **display** value, which controls how it shows up on a WP. The default display is usually **block** or **inline** and is depenedent on the browser.
 
 #### Block-level - starts on a new line and takes up the full width available (stretches out to the left and right as far as possible).
@@ -32,3 +30,16 @@
 - none - the element is completely removed
 - initial - sets this property to its default value
 - inherit - inherits this property from its parent element
+
+___
+
+#### display: none - commonly used with JavaScript to hide and show elements without deleting and recreating them
+hint: `script` defaults to display: none.
+
+Note: Setting the display property of an element only changes **how the element is displayed**, *NOT* what kind of element it is (e.g. an inline element with display: block; is not allowed to have other block elements inside it).
+
+#### Hide an Element - display:none or visibility:hidden?
+
+**display: none** - the page will be display as if the element is simply not there. 
+**visibility:hidden** - b/c it's still taking up the same space as before, the element will affect the page layout.
+
