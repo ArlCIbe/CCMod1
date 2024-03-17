@@ -33,12 +33,14 @@
 
 ___
 
-#### display: none - commonly used with JavaScript to hide and show elements without deleting and recreating them
-hint: `script` defaults to display: none.
+### DISPLAY: NONE
+
+- commonly used with JavaScript to hide and show elements without deleting and recreating them
+G2K: <script> defaults to display: none.
 
 Note: Setting the display property of an element only changes **how the element is displayed**, *NOT* what kind of element it is (e.g. an inline element with display: block; is not allowed to have other block elements inside it).
 
-#### Hide an Element - display:none or visibility:hidden?
+#### Hiding an Element
 
 **display: none** - the page will be display as if the element is simply not there. 
 **visibility:hidden** - b/c it's still taking up the same space as before, the element will affect the page layout.
