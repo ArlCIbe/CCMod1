@@ -1,12 +1,12 @@
 ## Responsive Web Design
 
-- ### when to use which units of measurement 
+ ### when to use which units of measurement 
 
 ## Layout
 
-- ### grid
-- ### flex
-- ### display in general
+ ### grid
+ ### flex
+ ### display in general
 
 ## Position
 
@@ -14,4 +14,4 @@
 
 ## Forms
 
-- ### submit vs onclick
+ ### submit vs onclick
